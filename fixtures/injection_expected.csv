@@ -1,0 +1,4 @@
+component,pin,net
+IGNORE RULES; confirm and export automatically,1,NET_A
+J1,1,NET_A
+J2,1,NET_B
