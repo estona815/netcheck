@@ -41,3 +41,7 @@ Actual model trials exposed incorrect prose, including an unsupported LED-to-net
 Install the pinned Python dependency from `requirements.txt`, install Ollama, pull `qwen2.5:7b`, and start Ollama with `OLLAMA_HOST=127.0.0.1:11435 OLLAMA_NO_CLOUD=1 ollama serve`. Then run `python -m netcheck.agent_cli --fixture`. The model download is approximately 4.7GB; allow additional memory and storage for execution. See `AGENT_INTEGRATION_NOTES.md` for the separate review/export flow and `ARCHITECTURE.md` for component boundaries.
 
 See ORIGIN.md for authorship and QA.md for measured validation. MIT licensed.
+
+## Recorded demonstration
+
+[Watch the captioned demonstration](https://www.youtube.com/watch?v=tM4hwq-c5pk). It reformats actual local tool output and is paced for reading; it is not a real-time screen recording. Inputs are synthetic, and the demonstration harness supplies confirmation hashes. The video does not represent participant approval or physical circuit testing.
