@@ -1,6 +1,6 @@
 # NetCheck
 
-Original local connection-record comparison tool, created for the proposed Agents for Humans entry on September 11, 2026. It combines deterministic graph analysis with a local Strands CLI. An initial Qwen2.5:7b run invoked the real loading, comparison and pin-inspection tools. Further model acceptance scenarios are in progress. No physical circuit testing, publication or final contest submission is claimed.
+Original local connection-record comparison tool, created for the proposed Agents for Humans entry on September 11, 2026. It combines deterministic graph analysis with a local Strands CLI. Actual Qwen2.5:7b runs invoked loading, comparison, pin inspection and proposal tools. Measured model errors and their limits are documented below and in evidence/. The source is publicly available; no physical circuit test or final contest submission is claimed.
 
 It compares an expected pin-to-net table with a user-recorded wire table. It returns cross-net witness paths and disconnected expected groups. With partial observations, a disconnected group is explicitly unverified: an omitted record is not proof that a physical wire is missing. Connectivity means wire connectivity only; components do not create implicit electrical paths between their pins. The program does not simulate current, assess component characteristics, certify safety or control hardware.
 
